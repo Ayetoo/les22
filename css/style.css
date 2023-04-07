@@ -1,0 +1,117 @@
+html, body{
+    margin: 1px;
+    background-color: #efb1a144;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    background-color: #8DC8FF;
+    height: 5rem;
+    font-size: x-large;
+}
+a{
+    color: #00305C;
+    padding: 5rem;
+}
+    a:hover{
+        color: #FCB07E;
+        text-decoration: overline underline;
+    }
+li{
+    display: block;
+    padding: 5rem;
+}
+.main{
+    overflow: auto;
+}
+@media only screen and (min-width:768px){
+    .intro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .afb-tekst{
+        align-items: center;
+        justify-content: center;
+    }
+}
+h1{
+    color: #00305C;
+    padding: 1rem 4rem;
+}
+@media only screen and (min-width:768px){
+    .text{
+        padding-left: 5rem;
+    }
+}
+.highlight{
+    color: #00305C;
+    display: inline;
+}
+img{
+    padding: 2%;
+    border-radius: 100px;
+    max-width: 50%;
+    max-height: 20rem;
+}
+.profielfoto{
+    max-width: 50%;
+    display: block;
+    float: right;
+}
+@media only screen and (min-width:768px){
+    .afb-rechts{
+        float: right;
+        max-width: 25%;
+        }
+    .afb-links{
+        float: left;
+        max-width: 25%;
+    }
+    .profielfoto{
+        max-height: 25rem;
+    }
+}
+figcaption{
+    display: block;
+    text-align: center;
+    background-color: #8DC8FF;
+    border-radius: 100px;
+}
+input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border: #5d6e80;
+    border-style: solid;
+}
+    input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+        background-color: #fdfaf8;
+        border-style: solid;
+    }
+    input[type="text"]:hover, input[type="email"]:hover, textarea:hover{
+        border-width: 3px;
+        border-style: solid;
+        border-color: #000000;
+    }
+    textarea{
+        height: 150px;
+    }
+button{
+    width: 200px;
+    box-sizing: border-box;
+}
+    button:hover{
+        background-color: #efb1a144;
+    }
+    button:active{
+        background-color: #fdfaf8;
+    }
+footer{
+    background-color: #efb1a144;
+    color: grey;
+    min-height: 200px;
+    padding: 3rem;
+    font-size: x-small;
+    vertical-align: bottom;
+}
