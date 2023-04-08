@@ -7,18 +7,18 @@
 			<meta name="keywords" content="">
 			<meta name="author" content="Lizanne Voogt">
 			<!-- Bootstrap-CSS -->
-                <link
-                href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-                rel="stylesheet"
-                integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-                crossorigin="anonymous"">
-                <link rel="stylesheet" type="text/css" href="../css/style.css">
-			<title>Contact</title>
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+        crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+			<title>LV - Contact</title>
 		</head>	
-    <header>
-		<body class="container-sm">	
-      <nav class="navbar sticky-top navbar-expand">
-        <div class="container-fluid">
+    <body class="container-sm">	
+      <header>
+        <nav class="navbar sticky-top navbar-expand">
+          <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">Lizanne Voogt</a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -31,25 +31,26 @@
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
-        </div>
-      </nav>
-    </header>
-      <div class="main">
-            <div class="text">
-              <h1>Contact</h1>
-                <p class="container-sm">Dit was mijn website. Mijn naam is Lizanne en wil jij nog meer over mee weten? Vul dan onderstaand formulier in.<br><br>Dan neem ik contact met je op en kunnen we eens een bakkie gaan doen.
-                  <input type="text" placeholder="Naam">
-            <input type="email" placeholder="E-mailadres">
-            <textarea placeholder="Uw bericht"></textarea>
-            <button>Verzenden</button>
-            </div>
-            </div>
           </div>
+        </nav>
+      </header>
+      <div class="main">
+        <div class="text">
+          <h1>Contact</h1>
+          <p class="container-sm">Dit was mijn website. Mijn naam is Lizanne en wil jij nog meer over mee weten? Vul dan onderstaand formulier in.<br><br>Dan neem ik contact met je op en kunnen we eens een bakkie gaan doen.
+          <form id="contactform" method="post" action="https://formspree.io/f/xjvdpkkl">
+            <input type="text" name="naam" placeholder="Naam" required>
+            <input type="email" name="email" placeholder="E-mailadres" required>
+            <textarea name="bericht" placeholder="Uw bericht" required></textarea>
+            <button>Verzenden</button>
+          </form>
+        </div>
+      </div>
 			<footer class="fixed">Alle rechten voorbehouden. Niets uit deze uitgave mag worden verveelvoudigd, opgeslagen in een geautomatiseerd gegevensbestand of openbaar worden gemaakt in enige vorm of op enige wijze, zonder voorafgaande schriftelijke toestemming van de uitgever.</footer>
 			<!-- Bootstrap-JavaScript-->
-                <script
-                src=""https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js""
-                integrity=""sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0""
-                crossorigin=""anonymous""></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 		</body>	
 	</html>		

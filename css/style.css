@@ -2,15 +2,21 @@ html, body{
     margin: 1px;
     background-color: #efb1a144;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
 }
 nav{
     background-color: #8DC8FF;
     height: 5rem;
-    font-size: x-large;
+    font-size: small;
+}
+@media only screen and (min-width:768px){
+    nav{
+        font-size: large;
+    }
 }
 a{
     color: #00305C;
-    padding: 5rem;
+    padding: 5px;
 }
     a:hover{
         color: #FCB07E;
@@ -18,7 +24,6 @@ a{
     }
 li{
     display: block;
-    padding: 5rem;
 }
 .main{
     overflow: auto;
@@ -75,15 +80,20 @@ figcaption{
     display: block;
     text-align: center;
     background-color: #8DC8FF;
-    border-radius: 100px;
+    border-radius: 10px;
 }
 input[type="text"], input[type="email"], textarea{
     display: block;
     margin: 15px 0px;
-    width: 400px;
+    width: 100%;
     box-sizing: border-box;
     border: #5d6e80;
     border-style: solid;
+}
+@media only screen and (min-width:768px){
+    input[type="text"], input[type="email"], textarea{
+        width: 400px;
+    }
 }
     input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
         background-color: #fdfaf8;
@@ -111,7 +121,7 @@ footer{
     background-color: #efb1a144;
     color: grey;
     min-height: 200px;
-    padding: 3rem;
+    padding: 8rem 1rem 0rem;
     font-size: x-small;
     vertical-align: bottom;
 }
